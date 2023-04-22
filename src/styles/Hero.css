@@ -1,0 +1,285 @@
+.hero-con{
+width: 100%;
+height: 390px;
+background-color: #89E7DD;
+color: white;
+display: flex;
+margin-top: 50px;
+
+}
+.hero-left{
+      width: 50%;
+      height: 300px;
+      border: 2px solid white;
+      border-radius: 10px;
+      margin-left: 10%;
+      background-color: #fff;
+      display: flex;
+}
+.hero-right{
+      width: 27%;
+      height: 300px;
+      border: 2px solid white;
+      border-radius: 10px;
+      margin-left: 3%;
+      background-color: #fff;
+      overflow: scroll;
+}
+.upload{
+      margin-left: 35px;
+      margin-top: 45px;
+}
+.camera {
+      margin-top: 45px;
+}
+.pdf{
+      margin-top: 45px;
+}
+.hero-left .upload p{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: greenyellow;
+      color: purple;
+      text-align: center;
+      padding-top: 60px;
+      font-size: 22px;
+}
+ label{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: greenyellow;
+      color: purple;
+      text-align: center;
+      padding-top: 60px;
+      font-size: 22px;
+      cursor: pointer;
+}
+.upload  button{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: purple;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.camera button{
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: purple;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: 25px;
+      margin-top: 10px;
+}
+
+.pdf button{
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: purple;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: 25px;
+      margin-top: 10px;
+}
+
+.hero-right h4{
+      color: black;
+      padding-left: 50px;
+      padding-top: 10px;
+}
+
+.hero-right h6{
+      color: black;
+      padding-left: 50px;
+      padding-top: 10px;
+}
+.post{
+color: black;
+width: 80%;
+background-color: gray;
+color: yellow;
+border-radius: 10px;
+margin: auto;
+margin-top: 10px;
+text-align: center;
+cursor: pointer;
+white-space: wrap; 
+overflow: hidden;
+text-overflow: ellipsis; 
+height: 50px;
+}
+
+.file{
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+}
+
+.text-hero-con{
+      width: 100%;
+      height: 390px;
+      background-color: #89E7DD;
+      color: white;
+      display: flex;
+      margin-top: 50px;
+      
+      }
+      .text-hero-left{
+            width: 50%;
+            height: 300px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 10%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            
+      }
+      .text-hero-right{
+            width: 27%;
+            height: 300px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 3%;
+            background-color: #fff;
+      }
+      
+      .text-hero-left h4{
+            color: black;
+            margin: 20px auto;
+      }
+      .text-hero-left textarea{
+            color: black;
+            padding: 20px 50px;
+            width: 100%;
+            outline: none;
+            border: none;
+            height: 100%;
+      }
+     .tryother{
+           position: absolute;
+           width: auto;
+           height: 40px;
+           border-radius: 5px;
+           background-color: rgb(175, 33, 175);
+           color: white;
+           padding: 5px 10px;
+           margin-top: 10px;
+           margin-left: 10px;
+           border: 1px solid gray;
+           font-size: 18px;
+           font-weight: 600px;
+     }
+
+     .tryother2{
+      position: absolute;
+      width: auto;
+      height: 40px;
+      border-radius: 5px;
+      background-color: rgb(175, 33, 175);
+      color: white;
+      padding: 5px 10px;
+      margin-top: 10px;
+      margin-left:40%;
+      border: 1px solid gray;
+      font-size: 18px;
+      font-weight: 600px;
+}
+
+      .text-hero-right h5{
+        text-align: center;
+        color: black;
+      }
+      .voices{
+            text-align: center;
+            color: black;
+            width: 80%;
+            margin: 10px auto; 
+            height: 32px;
+            display: flex;
+      }
+    .male{
+      text-align: center;
+      color: black;
+      width: 120px;
+      margin-left: -10px;
+      border: 1px solid gray;  
+      height: 32px;
+      background-color: rgb(93, 230, 173);
+      border-radius: 20px;
+      color: #000;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .female{
+      text-align: center;
+      color: black;
+      width: 120px;
+      margin-left: 13px;
+      border: 1px solid gray;  
+      height: 32px;
+      background-color: rgb(93, 230, 173);
+      border-radius: 20px;
+      color: #000;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .male:hover{
+      background-color: blue;
+      color: white;
+    }
+    .female:hover{
+      background-color: blue;
+      color: white;
+    }
+
+      .music-con{
+            width: 70%;
+            height: 50%;
+            border-radius: 25px;
+           
+            margin-top: 20px;
+            margin-left: 50px;
+      }
+      .music-con img{
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            object-fit: contain;
+      }
+      .buttons-con{
+            display: flex;
+            padding-left: 25px;
+      }
+      .controls{
+            position: absolute;
+            bottom: 100px;
+            left: 130px;
+            height: 50px;
+            width: 80%;
+            padding: 5px;
+             background-color: black;
+             border: 1px solid black;
+             display: flex;
+             flex: 1;
+             border-radius: 25px;
+             color: white;
+           }
+           .controls div{
+              flex: 0.33;
+              margin-left: 50px;
+           }
+
+           .controls div  span{
+                 padding-right: 10px;
+           }

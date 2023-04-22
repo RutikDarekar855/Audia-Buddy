@@ -1,0 +1,60 @@
+.profile{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex: 1;
+    background-color: #89E7DD;
+}
+.proleft{
+    flex: 0.5;
+    
+}
+.proleft h3{
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: -5px;
+}
+.proright{
+    flex: 0.5;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.iconbox{
+    width: 50%;
+    height: 250px;
+    border-radius: 20px;
+    margin: 6% auto;
+}
+.iconbox img{   
+    width: 330px;
+    height: 270px;
+}
+.proright input{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 15px 50px;
+    padding-left: 20px;
+    background-color: white;
+}
+.proright button{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 15px 50px;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}

@@ -1,0 +1,73 @@
+.reg-con{
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+}
+
+.reg-box{
+   width: 40%;
+   height: auto;
+   margin:  auto  ;
+   padding: 20px;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+}
+.reg-con h2{
+      margin: 10px auto;
+      text-transform: uppercase;
+}
+
+.reg-con input{
+      width: 85%;
+      height: 40px;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px  auto;
+      border: 1px solid gray;
+}
+.reg-con button{
+      width: 85%;
+      height: 40px;
+      border-radius: 5px;
+      margin: 6px  auto;
+      border: 1px solid gray;
+      font-size: 24px;
+      text-transform: uppercase;
+      background-color: rgb(102, 102, 228);
+      color: white;
+}
+.reverse{
+      display: flex;
+}
+.home{
+  width: 125px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-top: 7px;
+  background-color: rgb(241, 32, 154);
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.signup{
+      width: 110px;
+      height: 40px;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-left: 160px;
+      padding-left: 20px;
+      padding-top: 7px;
+      background-color:rgb(40, 240, 40);
+      color: #fff;
+      font-weight: bolder;
+      cursor: pointer;
+}

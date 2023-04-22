@@ -1,0 +1,66 @@
+.body{
+      background-color: #89E7DD;
+      width: 100%;
+}
+*{
+      margin: 0;
+      padding: 0;
+}
+.center{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+}
+.center textarea{
+      width: 40%;
+      height: 250px;
+      margin: auto;
+      padding-left: 10px;
+}
+.center button{
+      width: 40%;
+      height: 50px;
+      margin: auto;
+      margin-top: 20px;
+      background-color: tomato;
+}
+.center select{
+      width: 60%;
+      height: 30px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 10px;
+}
+.nav{
+      margin-top: 30px;
+}
+.cn-btn{
+      margin-bottom: 50px;
+      width: 50%;
+}
+.convert{
+      text-align: center;
+}
+
+.darshan{
+      background-color: #fff;
+}
+
+.header{
+      width: 100%;
+      height: 95px;
+      background-color: #89E7DD;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+}
+.copy{
+      padding-top: 20px;
+}
+#temp{
+      background-image: url("/public/temp.jpg");
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+}
